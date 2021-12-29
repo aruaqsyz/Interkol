@@ -1,0 +1,44 @@
+body{
+  background-color: hotpink;
+}
+.descrb {
+  height: 80px;
+  width: 500px;
+  background-color: steelblue;
+  font-style: italic;
+  color: yellow;
+}
+.games {
+  border-style: dotted;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  height: 150px;
+  width: 300px;
+  font-size: 11;
+  font-weight: bold;
+  font-style: oblique;
+  background-color: sandybrown;
+}
+
+.nurzhik {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+
+h1 {
+  background-color: coral;
+  display: block;
+}
+
+ziga {
+  position: absolute;
+  position: fixed;
+  right: 200px;
+  top: 200px;
+}
