@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(227,189,235)
+  position: relative;
+  font-family: 'Helvetica', sans-serif;
+  overflow-x: hidden;
+  height: auto;
+  font-weight: lighter;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+header .interpol_head{
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interpol_logo{
+  font-weight: 800;
+  font-size: 30px;
+  color: rgb(10, 80, 150);
+  text-decoration: none;
+  padding-left: 20px;
+}
+.interpol_logo:hover{
+  color: rgb(90, 140, 200);
+}
+
+.interpol_menu{
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.interpol_menu li{
+  display: inline-block;
+}
+
+.interpol_menu li a{
+  display: inline-block;
+  color: rgb(110, 160, 210);
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.interpol_menu li a:hover{
+  color: rgb(35, 50, 60);
+}
+
+.interpol_info{
+  font-weight: 1;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.question {
+  border-style: solid;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rgb(165, 195, 220);
+}
+table, th, td {
+  border:1px solid black;
+}
+
+.banner-area{
+  size: 100%;
+  background-size: cover;
+  background-position: center center;
+  top: 150px;
+  padding-left: 200px;
+}
+
+.form {
+  border-style: solid;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
+  line-height: 1.6;
+}
