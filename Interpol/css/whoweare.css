@@ -1,9 +1,3 @@
-body {
-  background-color: rgb(227,189,235)
-  font-family: 'Helvetica', sans-serif;
-  font-weight: lighter;
-}
-
 header {
   width: 100%;
   height: 80px;
@@ -48,44 +42,6 @@ header .interpol_head{
 
 .interpol_menu li a:hover{
   color: rgb(35, 50, 60);
-}
-
-.interpol_info{
-  font-weight: 1;
-  font-size: 20px;
-  font-family: 'Arial', sans-serif;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-.question {
-  border-style: solid;
-  border-radius: 10px;
-  display: inline-block;
-  background-color: rgb(165, 195, 220);
-}
-table, th, td {
-  border:1px solid black;
-}
-
-.banner-area{
-  size: 100%;
-  background-size: cover;
-  background-position: center center;
-  top: 150px;
-  padding-left: 200px;
-}
-
-.form {
-  border-style: solid;
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
-  display: inline-block;
-  line-height: 1.6;
 }
 
 
