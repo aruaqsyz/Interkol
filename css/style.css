@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(227,189,235)
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+
+
+.interpol_info{
+  font-weight: 1;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.question {
+  border-style: solid;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rgb(165, 195, 220);
+}
+table, th, td {
+  border:1px solid black;
+}
+
+.banner-area{
+  size: 100%;
+  background-size: cover;
+  background-position: center center;
+  top: 150px;
+  padding-left: 200px;
+}
+
+.form {
+  border-style: solid;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
+  line-height: 1.6;
+}
+
+
+footer{
+
+    background: rgb(10, 80, 150);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    margin-top: auto;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    margin-right: 30px;
+}
+.socials li{
+    margin: 0 10px;
+
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: rgb(90, 140, 200);
+}
+
+.footer-bottom{
+    background: rgb(5, 45, 90);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

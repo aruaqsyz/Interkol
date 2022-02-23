@@ -1,0 +1,184 @@
+  <!DOCTYPE html>
+<head>
+
+<meta charset="utf-8">
+<title>Interpөl</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="icon" href="interpol.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/wantedlist.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: rgb(230,240,250)">
+    <script src="wanted.js" charset="utf-8"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">INTEPӨL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="whoweare.html">Who we are?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="wantedlist.html">Wanted Persons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reg.html">Register</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<audio src="Kalym.mp3" id="bgm" autoplay></audio>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+// (B) GET AUDIO TAG + DEFINE PLAYLIST
+  playlist = ["Kalym.mp3", "2.mp3"],
+  current = 0;
+  let audio = document.getElementById("bgm"),
+
+// (C) AUTO LOAD NEXT SONG
+audio.onended = () => {
+current++;
+if (current >= playlist.length) { current = 0; }
+audio.src = playlist[current];
+audio.pause();
+audio.load();
+audio.play();
+};
+</script>
+
+  <h1 class="wantd">Wanted Persons</h1>
+  <h4 style= " text-align:center">If you see or have ever seen these people from the wanted list,
+    then write to us or call our number before they make a fuss</h4>
+
+  <div id="rassol" class="konshan">
+    <a  href = "#" onMouseOver = "document.myImage.src = image2.src;"
+       onMouseOut = "document.myImage.src = image1.src;">
+       <img name = "myImage" src = "rasul.png" />
+      </a>
+      <span class="name">Rassol Naimanbetov</span>
+      <span class="text">gypsy,pickpocke,the shaves every day so as not to seem older than his age, but gray hair interferes with him</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="alina.png" alt="">
+      <span class="name">Alena Sokolova</span>
+      <span class="text">Pedophile, pimp, slave owner drinks coke, most likely violently,she knows everythink about the person if you pass her test</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="abyl.png" alt="">
+      <span class="name">Abyl Grey </span>
+      <span class="text">from cameras, drug courier, bandit,when he was 10 years old, he beat a 23-year-old policeman to a pulp</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="temir.jpg" alt="">
+      <span class="name"> Steel Nukan</span>
+      <span class="text">Vandal, bully, he is prone to beatings, because in childhood he was bullied, because he was taller than his peers</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="yerbol.jpg" alt="">
+      <span class="name">Birzhan Ashim</span>
+      <span class="text">(ENTP) the sale of toxic waste, for several years of work itself has become toxic. chemist, poisoned the whole city</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="dante.jpg" alt="">
+      <span class="name">Dante Bruno</span>
+      <span class="text">A conman, an extortionist, he has very bad jokes, and if you don't laugh at his jokes, then he will ban you in the basement</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="medik.jpg" alt="">
+      <span class="name">Melino Fernández</span>
+      <span class="text">a swindler, a fraudster, a robber, knows how to speak all languages, also owns dangerous military equipment</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="molik.jpg" alt="">
+      <span class="name">Mali li</span>
+      <span class="text">the leader of the Yakuza, was engaged in forgery of documents, an attempt to escape to Canada was recently interrupted</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="akylbek.jpg" alt="">
+      <span class="name">Akulio Loren</span>
+      <span class="text">robber.he is known throughout the wild west(Kazakhstan)for a major robbery of a book shop</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="asya.jpg" alt="">
+      <span class="name">Asel Nino</span>
+      <span class="text">a pimp, vandal, a con artist, has 10 brothels in one city that we were able to find, and there are even more</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="yerni.jpg" alt="">
+      <span class="name">Yernando Garcia</span>
+      <span class="text">Trying to move from Balkhash, He got to the fresh part and so, sells a rare species of fish, like mermaids and walruses</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="adil.jpg" alt="">
+      <span class="name">Adren Soplya</span>
+      <span class="text">rapist, pedophile, necrophil,lolihunter,shizo,homophobe,racist,sexist, late for his wedding. TWICE</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="alpar.jpg" alt="">
+      <span class="name"> Alpir Gonzále</span>
+      <span class="text">the drug lord, Pablo Escobar's cousin, who supplies goods to the whole of South America, having 5432 restaurants behind him, managed to drink them</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="dilya.jpg" alt="">
+      <span class="name"> Dina Saeva</span>
+      <span class="text">the leader of the criminal gang, although according to some information he recently left this post, also attempted to assassinate the president with a stick and shooting at someone.</span>
+  </div>
+  <div class="konshan">
+      <img class="img" src="zhalgas.png" alt="">
+      <span class="name">Zhalp'e Rodríguez</span>
+      <span class="text">Creator of the anonymous committee.a serial killer, in some villages they are afraid to call his name out loud, and they called him IRIS, who also robbed the Central Bank of Iraq</span>
+  </div>
+
+  <style>
+      .konshan{
+          height: 350px;
+          width: 18%;
+          display: grid;
+          grid-template-rows: 190px 199px 30px;
+          margin-left: 150px;
+          border: solid black;
+          word-wrap: break-word;
+          display: inline-block;
+      }
+      img{
+
+          width: 100%;
+          height: 100%;
+      }
+      .name{
+        display: block;
+          text-align: center;
+              font-size: 20pt;
+          border-bottom: solid black;
+          word-wrap: break-word;
+      }
+      .text{
+          word-wrap: break-word;
+          word-break: break-word;
+          font-size: 15pt;
+      }
+  </style>
+</body>
+</html>
+  <footer>
+          <div class="footer-content">
+              <h3><a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">INTEPӨL</a></h3>
+              <p>your safety is in your own hands</p>
+              <ul class="socials">
+                  <li><a href="https://steamcommunity.com/profiles/76561198116519648"><i class="fa fa-steam"></i></a></li>
+                  <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.youtube.com/c/A4a4a4a4"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="https://www.instagram.com/aruaqsyz/"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://www.facebook.com/toqayevteam/"><i class="fa fa-facebook"></i></a></li>
+              </ul>
+          </div>
+          <div class="footer-bottom">
+              <p>copyright &copy;2021 INTEPӨL. designed by <span>llukonmetsu & aruaqsyz</span></p>
+              <h6 style="color: rgb(10, 80, 130)">the information contained in this website is for entertainment information purposes only.  all characters are fictional. all coincidences with reality are random. the authors do not bear any responsibility under any circumstances.</h6>
+
+          </div>
+      </footer>
+
+</body>
